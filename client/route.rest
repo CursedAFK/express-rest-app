@@ -1,1 +1,28 @@
 GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/649859f4f5f7b1cb33cf5760
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+  "name": "D Nigga",
+  "subscribeToChannel": "Foot Only Fans"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/64985e95d395357d09acad03
+
+###
+
+PATCH http://localhost:3000/subscribers/649860c7c79a588104c84dc8
+Content-Type: application/json
+
+{
+  "subscribeToChannel": "Boobs Only Fans"
+}
